@@ -2,7 +2,8 @@
     "compilerOptions": {
         "outDir": "dist/js", // é aqui onde será gravado os arquivos resultantes do typescript.
         "target": "ES6", // converter os arquivos para ecmascript 6
-        "noEmitOnError": true // não gera arquivo js se houver erro.  
+        "noEmitOnError": true, // não gera arquivo js se houver erro.  
+        "noImplicitAny": true // ativando a tipagem
     },
     // os arquivos que devem ser considerados para serem convertidos estão em
     "include": ["app/**/*"]
